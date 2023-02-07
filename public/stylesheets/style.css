@@ -8,22 +8,22 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    color: #333;
+    color: #070707;
   }
   
   a {
     text-decoration: none;
-    color: #a074c7;
+    color: #71538b;
     font-weight: bold;
     transition: color 0.1s;
   }
   
   a:hover {
-    color: #9f34eb;
+    color: #591986;
   }
   
   button {
-    background-color: #a074c7;
+    background-color: #7e599e;
     border: 0;
     padding: 1%;
     color: white;
@@ -34,7 +34,7 @@
   }
   
   button:hover {
-    background-color: #9f34eb;
+    background-color: #821fc9;
   }
   
   .post-list {
@@ -46,13 +46,13 @@
   input {
     padding: 0.5%;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #b6b1b1;
   }
   
   textarea:focus,
   input:focus {
     outline: none;
-    border: 1px solid #9f34eb;
+    border: 1px solid #8128c0;
   }
   
   textarea {
@@ -78,7 +78,7 @@
   }
   
   header {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #aaa1a1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,15 +109,15 @@
   
   .btn-no-style:hover {
     background: none;
-    color: #9f34eb;
+    color: #7a22b9;
   }
   
   .delete-post-btn {
-    background-color: #d41414;
+    background-color: #af0505;
   }
   
   .delete-post-btn:hover {
-    background-color: #ff643d;
+    background-color: #c94b2c;
   }
   
   .post {
@@ -128,7 +128,7 @@
   .post .title span {
     font-style: italic;
     font-size: 90%;
-    color: #7d7d7d;
+    color: #5f5e5e;
   }
   
   .edit-link {
@@ -146,7 +146,7 @@
   }
   
   .comment:nth-child(odd) {
-    background-color: #fff5eb;
+    background-color: #ffffff;
   }
   
   .comment .meta {
@@ -164,7 +164,7 @@
   }
   
   footer {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #bdb6b6;
     display: flex;
     justify-content: center;
     padding: 1%;
